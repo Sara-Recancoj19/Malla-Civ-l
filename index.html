@@ -155,7 +155,7 @@
 
 <header>
   <div class="title">
-    <h1>Malla Curricular Interactiva — Ingeniería Mecánica</h1>
+    <h1>Malla Curricular Interactiva — Ingeniería Civil</h1>
     <p class="sub">Haz clic en un curso para marcarlo como aprobado.</p>
   </div>
 
@@ -273,7 +273,22 @@ const cursos = [
 {"codigo":"3115","nombre":"Diseño de Maquinas 3","creditos":4,"prereq":["3105"],"semestre":10},
 {"codigo":"3058","nombre":"Motores de Combustión Interna","creditos":6,"prereq":["3050"],"semestre":10},
 {"codigo":"3116","nombre":"Fundamentos de Administración","creditos":4,"prereq":["3090","3103"],"semestre":10},
-{"codigo":"3117","nombre":"Investigación de Operaciones 1","creditos":6,"prereq":["3091"],"semestre":10}]; 
+{"codigo":"3117","nombre":"Investigación de Operaciones 1","creditos":6,"prereq":["3091"],"semestre":10}
+];
+
+/* Códigos de cursos obligatorios */
+const obligatoriosFijos = new Set([
+  "3000","3001","3003","3004","3005",
+  "3006","3007","3011","3084","3083","3085",
+  "3013","3014","3020","3021","3022","3023","3090","3025",
+  "3027","3091","3034","3029","3033","3092",
+  "3093","3042","3031","3032",
+  "3095","3096","3050","3040","3041","3097",
+  "3057","3059","3049","3100","3101","3102",
+  "3103","3104","3105","3106","3107","3108",
+  "3112","3113","3114","3115"
+]);
+
 // ⬅️ AQUÍ VA TU MISMO JSON COMPLETO (no se modifica)
 /* ================================== */
 
